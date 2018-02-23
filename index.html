@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en-US">
+       <meta charset="UTF-8">
+       <title>CSCE 315 Project</title>
+       <link href="./style.css" type="text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cousine:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Arima+Madurai:400,700,900|Euphoria+Script" rel="stylesheet">
+       <meta name="viewport" content="wideth=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        hello
+
+        <?php
+
+          include('..\..\CommonMethods.php');
+          $COMMON = new Common($debug);
+          $debug = false;
+          function getInformationFromDatabase($currentEmployer){
+            global $debug;
+            global $COMMON;
+
+            $sql = "SELECT DISTINCT '$column_name' FROM `amanda.bsaibes`.`QUESTION`";
+
+            $rs = $COMMON->executeQuery($sql, $_SERVER["SCRIPT_NAME"]);
+
+            $row = $rs->fetch(PDO::FETCH_ASSOC);
+
+            return $row;
+          }
+
+        ?>
+  hello
+        <?php
+          $row = getInformationFromDatabase('type');
+          for 
+          echo $row['currentBalance'];
+          echo $row['lastPayment'];
+          echo "hi<br>";
+
+          $a = "maroon";
+          $var = ['tires','oil'];
+          echo "$var[1]";
+        ?>
+
+
+
+    </body>
+</html>
