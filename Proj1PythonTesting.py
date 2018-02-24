@@ -5,8 +5,8 @@
 # Date: 2/22/2018
 # Section: 502
 # E-mail 1: amanda.bsaibes@tamu.edu
-# E-mail 2: emmaleepk@tamu.edu
-# E-mail 3: kwong333@tamu.edu
+# E-mail 2: kwong333@tamu.edu
+# E-mail 3: emmaleepk@tamu.edu
 #
 # This file contains the initial test cases for the 
 # database interaction with PHP. We first make sure that 
@@ -41,8 +41,10 @@ class TestStringMethods(unittest.TestCase):
     #-----------------------------------------------------------------
     def test_insert(self):
         try:
+            #try to execute the insert query
             cursor.execute("INSERT INTO ProjectDB () VALUES ()")
         except pymysql.ProgrammingError as e:
+            #if this error is thrown then insert did not complete
             self.fail(msg=str(e))
 
 
@@ -54,9 +56,11 @@ class TestStringMethods(unittest.TestCase):
     #-----------------------------------------------------------------
     def test_reset(self):
         try:
+            #try to execute the delete and reset auto increment query
             cursor.execute("DELETE FROM `ProjectDB`")
             cursor.execute("ALTER TABLE `ProjectDB` AUTO_INCREMENT = 1")
         except pymysql.ProgrammingError as e:
+            #if this error is thrown then the reset of the table failed
             self.fail(cursor.execute("DELETE FROM `ProjectDB"))
 
 unittest.main(verbosity=2)
