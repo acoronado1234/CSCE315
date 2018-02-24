@@ -1,11 +1,12 @@
 <!-- /****************************************************
 ** File: 
 ** Project: Project 1 
-** Author: Amanda Bsaibes and Emmalee Keatley
+** Author: Amanda Bsaibes, Emmalee Keatley, and Alexander Coronado
 ** Date: 2/22/2018
 ** Section: 502
 ** E-mail 1: amanda.bsaibes@tamu.edu
 ** E-mail 2: emmaleepk@tamu.edu
+** E-mail 3: kwong333@tamu.edu
 **
 ** This file contains the initial test cases for the 
 ** database interaction with PHP. We first make sure that
