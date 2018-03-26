@@ -257,7 +257,7 @@ function TotalPerWeek($timestamp)
 function TotalPerMonth($timestamp)
 {
 	$total = 0;
-	$monthOfYear = date('Y-m-d',strtotime($timestamp));
+	$monthOfYear = date('Y-m',strtotime($timestamp));
 	$month = date('F \of Y',strtotime($timestamp));
 	
 	global $COMMON;
