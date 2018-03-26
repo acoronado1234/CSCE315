@@ -1,0 +1,77 @@
+/*
+midnightblue: #143a4d
+brown: #896527
+lighblue: #9bb0b1
+$lightnavy: #17435c
+beige: #e2cf8d
+yellow:#ffe057
+*/
+
+
+html { 
+    background: url(binary_wallpaper.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.title{
+    font-size: 600%;
+    font-family: Cousine;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 10%;
+    color: #ffe057;
+        
+}
+.small{
+    margin-top: -30px;
+    font-size: 400%;
+    text-align: center;
+    font-family: "Euphoria Script";
+    margin-bottom: 0;
+    color: white;
+}
+
+.arduino{
+    font-family: Cousine;
+    text-align: center;
+    font-size: 400%;
+    font-weight: 900;
+    margin-top: -15px;
+    margin-bottom: 0px;
+    color: #ffe057;
+}
+.creators {
+    margin-top: -20px;
+    font-size: 200%;
+    color: white;
+    margin-bottom: 40px;
+}
+.button {
+	border: 2px solid #ffe057;
+	background-color: #143a4d;
+	height: 100px;
+	width: 250px;
+	margin: auto;
+	text-align: center;
+    
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-family: Cousine, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+span {
+	font-weight: 900;
+	font-size: 40px;
+	color: #ffffff;
+    text-align: center;
+    line-height: 56px;
+}

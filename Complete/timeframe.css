@@ -1,0 +1,46 @@
+/*
+midnightblue: #143a4d
+brown: #896527
+lighblue: #9bb0b1
+$lightnavy: #17435c
+beige: #e2cf8d
+yellow:#ffe057
+*/
+
+html {
+    background: linear-gradient(to bottom,#17435c, #9bb0b1);
+}
+
+.timeframeSelect {
+    color: #ffe057;
+    font-size: 250%;
+    font-family: "Euphoria Script";
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+form {
+    font-family: Cousine;
+    font-size: 130%;
+    color: white;
+    margin-left: 50;
+    
+}
+
+.button {
+    background-color: #ffe057;
+    border: none;
+    color: #17435c;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #17435c;
+    color: #ffe057;
+    border: 2px solid #ffe057;
+}
